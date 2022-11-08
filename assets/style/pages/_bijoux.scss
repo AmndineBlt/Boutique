@@ -1,0 +1,72 @@
+
+#container {
+    position: relative;
+    margin: 80px auto;
+    height: 500px;
+    background: $color2;
+
+    p {
+        position: absolute;
+        top: -3.5%; left: 5%;
+        font-size: 1.3rem;
+    }
+}
+
+#element {
+    position: relative;
+    margin: 50px 20px 200px 20px;
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+/*-- Element 1 --*/
+.description_produit {
+    position: absolute;
+    width: 300px;
+    top: 30%; left: 25%;
+}
+  
+.separation {
+    img {
+        position: absolute;
+        width: 300px;
+        top: 65%; right: 35%;
+    }
+
+}
+
+.photo_bijoux {
+    height: 90px;
+    img {
+        position: absolute;
+        width: 230px;
+        top: -50%; right: 20%;
+    }
+}
+
+/*-- Element 2 --*/
+.description_produit2 {
+    position: absolute;
+    width: 300px;
+    top: 0%; right: 18%;
+}
+
+.separation2 {
+    img {
+        position: absolute;
+        width: 300px;
+        top: 45%; right: 43%;
+    }
+
+}
+
+.photo_bijoux2 {
+    height: 90px;
+    img {
+        position: absolute;
+        width: 230px;
+        top: -55%; left: 27%;
+    }
+}

@@ -1,0 +1,22 @@
+/* ------------------------ Déclaration de variables ------------------------ */
+/* Couleurs principales */
+$color1: #E6D9D0;
+$color2: #DDC5B2;
+$color3: #cfa16c;
+/* Fonts */
+$font1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+/* ------------------------ Mise en forme ------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font1;
+    height: 1vh;
+    text-align: center;
+}

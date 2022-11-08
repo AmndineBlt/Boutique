@@ -1,0 +1,17 @@
+section {
+    background: $color1;
+    height: 463px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .aPropos {
+        background: white;
+        height: 300px;
+
+        p {
+            max-width: 500px;
+            padding: 5px;
+        }
+    }
+}

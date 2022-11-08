@@ -1,0 +1,58 @@
+header {
+    position: relative;
+    height: 500px;
+    justify-content: center;
+
+    .imgTop {
+        position: absolute;
+        top: -45px;
+        right: 0;
+        z-index: -1;
+        width: 52%;
+        height: 50%;
+    }
+
+    h1 {
+        position: absolute;
+        top: 43%;
+        right: 61%;
+        font-size: 3rem;
+
+        @media screen and (max-width: 1280px) 
+        {
+            font-size: 2.3rem;
+        }
+
+        @media screen and (max-width: 768px) 
+        {
+            font-size: 1.5rem;
+        }
+    }
+
+    h2 {
+        position: absolute;
+        top: 56%;
+        right: 50%;
+        font-size: 1.5rem;
+
+        @media screen and (max-width: 1280px) 
+        {
+            font-size: 1rem;
+        }
+    }
+
+    .logo {
+        position: absolute;
+        width: 410px;
+        top: 16%;
+        left: 29%;
+        z-index: -1;
+    }
+
+    p {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translate(-10px, -50%);
+    }
+}

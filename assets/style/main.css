@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* ------------------------ Déclaration de variables ------------------------ */
+/* Couleurs principales */
+/* Fonts */
+/* ------------------------ Mise en forme ------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 1vh;
+  text-align: center;
+}
+
+header {
+  position: relative;
+  height: 500px;
+  justify-content: center;
+}
+header .imgTop {
+  position: absolute;
+  top: -45px;
+  right: 0;
+  z-index: -1;
+  width: 52%;
+  height: 50%;
+}
+header h1 {
+  position: absolute;
+  top: 43%;
+  right: 61%;
+  font-size: 3rem;
+}
+@media screen and (max-width: 1280px) {
+  header h1 {
+    font-size: 2.3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+header h2 {
+  position: absolute;
+  top: 56%;
+  right: 50%;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 1280px) {
+  header h2 {
+    font-size: 1rem;
+  }
+}
+header .logo {
+  position: absolute;
+  width: 410px;
+  top: 16%;
+  left: 29%;
+  z-index: -1;
+}
+header p {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-10px, -50%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  margin: 10px 30px;
+}
+nav ul li {
+  padding: 0 10px;
+  font-size: 1.2rem;
+}
+
+section {
+  background: #E6D9D0;
+  height: 463px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section .aPropos {
+  background: white;
+  height: 300px;
+}
+section .aPropos p {
+  max-width: 500px;
+  padding: 5px;
+}
+
+#container {
+  position: relative;
+  margin: 80px auto;
+  height: 500px;
+  background: #DDC5B2;
+}
+#container p {
+  position: absolute;
+  top: -3.5%;
+  left: 5%;
+  font-size: 1.3rem;
+}
+
+#element {
+  position: relative;
+  margin: 50px 20px 200px 20px;
+}
+#element p {
+  font-size: 1rem;
+}
+
+/*-- Element 1 --*/
+.description_produit {
+  position: absolute;
+  width: 300px;
+  top: 30%;
+  left: 25%;
+}
+
+.separation img {
+  position: absolute;
+  width: 300px;
+  top: 65%;
+  right: 35%;
+}
+
+.photo_bijoux {
+  height: 90px;
+}
+.photo_bijoux img {
+  position: absolute;
+  width: 230px;
+  top: -50%;
+  right: 20%;
+}
+
+/*-- Element 2 --*/
+.description_produit2 {
+  position: absolute;
+  width: 300px;
+  top: 0%;
+  right: 18%;
+}
+
+.separation2 img {
+  position: absolute;
+  width: 300px;
+  top: 45%;
+  right: 43%;
+}
+
+.photo_bijoux2 {
+  height: 90px;
+}
+.photo_bijoux2 img {
+  position: absolute;
+  width: 230px;
+  top: -55%;
+  left: 27%;
+}/*# sourceMappingURL=main.css.map */
